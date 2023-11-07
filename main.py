@@ -1,4 +1,4 @@
-import invoice2pdf
+from invoicing import invoice2pdf
 
 invoice2pdf.generate(invoice_path="invoices", path_pdf="pdf_invoices",
                      image_path="pythonhow.png",
